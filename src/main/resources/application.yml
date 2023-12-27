@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: 9603
+    url: jdbc:h2:mem:testdb
+    username: root
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
