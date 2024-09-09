@@ -49,7 +49,10 @@ public class ContactController {
 	public String deleteContact(@PathVariable Integer contactId) {
 		return service.deleteContactById(contactId);
 	}
-	
+	//@DeleteMapping("/contact/{contactId}")
+	//public String deleteContact(@PathVariable Integer contactId) {
+	//	return service.deleteContactById(contactId);
+	//}
 	
 	
 	
